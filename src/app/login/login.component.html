@@ -56,7 +56,7 @@
     </div>
 
     <!-- Tenant Identifier Name -->
-    <div fxLayout="row" fxLayoutAlign="center center" fxFlex="1 0 auto" *ngIf="displayTenantSelector()">
+    <div class="tenant-selector" *ngIf="isTenantSelectorEnabled()">
       <mifosx-tenant-selector></mifosx-tenant-selector>
     </div>
 
